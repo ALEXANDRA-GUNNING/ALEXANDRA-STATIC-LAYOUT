@@ -1,0 +1,203 @@
+/* Quick items of Interest
+Netflix Color: 
+    Static replica: netflix.com  *main splash page*    
+    https://brand.netflix.com/en/
+    Hex: #E50914
+    Head Font: font-family: 'Karla', sans-serif;
+    Body Font: font-family: 'Archivo', sans-serif;
+    /////Background image:
+    'https://assets.nflxext.com/ffe/siteui/vlv3/f1e267d6-6c89-4764-b978-5f074b26bea5/b3971fff-4585-4604-83a5-c2d03571d56b/US-en-20190722-popsignuptwoweeks-perspective_alpha_website_medium.jpg'
+*/
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(./assets/BebasNeue.otf);
+}
+
+/* MAIN */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Archivo', sans-serif;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Top Banner */
+
+.top-banner {
+    background-image: radial-gradient(rgba(0,0,0,0.35),rgba(0,0,0,.65),rgba(0,0,0,1)), url(./assets/US-en-20190722-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    height: 93vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    flex-flow: column;
+    z-index: 0;
+}
+
+/* Nav Bar */
+
+.nav {
+    padding: 1.5em;
+    padding-left: 5.25em;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+/* Logo Re-create */
+#top-text {
+    font-size: 4.25em;
+    color: #E50914;
+    font-family: 'BebasNeue', sans-serif;
+
+}
+    
+#sign-in {
+    background-color:#E50914;
+    height: 1.2em;
+    width: 4em;
+    padding: .3em;
+    border-radius: 2px;
+    margin-left: 480px;
+    margin-right: 130px;
+}
+
+#sign-in:hover {
+    background-color: rgb(245, 32, 43);
+}
+
+/* Top Banner Info */
+
+#whats-next {
+    background-size: 80vw;
+    width: 105vw;
+    padding-top: 35px;
+    padding-right: 50px;
+}
+
+#whats-next span {
+    font-family: 'Karla', sans-serif;
+    font-size: 5.7em;
+    font-display: bold;
+}
+
+#whats-next p {
+    font-size: 2.4em;
+}
+
+#try-button {
+    background-color:#E50914;
+    border: none;
+    height: 13vh;
+    width: 33vw;
+    border-radius: 2px;
+    align-self: center;
+    padding: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 70px;
+}
+
+#try-button:hover {
+    background-color: rgb(245, 32, 43);
+}
+
+/* Mid Banner */
+
+.mid-banner {
+    display: flex;
+    background-color: #111;
+    background-size: cover;
+    height: 25vh;
+    width: 100vw;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 3px solid #444;
+    padding-bottom: 5px;
+}
+
+.mid-banner div {
+    height: 20vh;
+    width: 24%;
+    padding: 2px;
+    margin: 18px;
+    text-align: center;
+    color: lightgray; 
+}
+.mid-banner div:hover{
+    color: white;
+    border-bottom: 8px solid#E50914;
+}
+
+#tag {
+    font-size: 45pt;
+}
+
+/* Bottom Banner */
+
+.bottom-banner {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.bottom-banner div{
+    height: 45vh;
+    width: 33vw;
+    margin: 5px;
+}
+
+.right {
+    padding-top: 65px;
+}
+.right span {
+    font-size: 1.9em;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.right #try-button-small {
+    background-color:#E50914;
+    border: none;
+    height: 9vh;
+    width: 14vw;
+    border-radius: 2px;
+    align-self: center;
+    padding: 0;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+#try-button-small:hover {
+    background-color: rgb(245, 32, 43);
+}
+
+#cancel-img {
+    background-image: url(./assets/asset_cancelanytime_withdevice.png);
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
+}
